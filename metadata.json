@@ -1,0 +1,8 @@
+{
+  "name": "BabyZen AI (寶貝萬事通)",
+  "description": "新手爸媽的智能神隊友。具備哭聲翻譯、副食品辨識與即時育兒諮詢功能。",
+  "requestFramePermissions": [
+    "microphone",
+    "camera"
+  ]
+}
