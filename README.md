@@ -4,27 +4,29 @@
 這是一個專為新手爸媽設計的 AI 助手。請按照以下步驟操作：
 
 
+1.請設置一個.env 檔案在本地端
 
-1.首先取的gemini api 金鑰並放置到
-env檔案。 
+2.取的gemini api 金鑰並放置到env檔案。
 
+格式為： GEMINI_API_KEY=your_api_key_here
 
-2.請在terminal操作
+3.請在terminal輸入以下指令
 
 npm install  # 安裝 App 零件 (只需跑一次)
 npm run dev  # 啟動軟體
 
 接著網頁會跳出供您使用
 
-baby-expert Startup Instructions 
-
+#baby-expert Startup Instructions
 
 This is an AI assistant designed specifically for new parents. Please follow these steps:
 
-1. Obtain a Gemini API key and place it in the env file.
-2. Run the following commands in the terminal:
+1.Create a .env file in your local directory
 
-npm install  # Install app dependencies (only need to run once)
-npm run dev  # Start the application
+2.Obtain a Gemini API key and place it in the .env file
+    Format: GEMINI_API_KEY=your_api_key_here
 
-Then a webpage will open for you to use.
+3.Run the following commands in the terminal:
+    npm install  # Install app dependencies (only need to run once)
+    npm run dev  # Start the application
+    Then a webpage will open for you to use.
